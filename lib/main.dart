@@ -1,11 +1,10 @@
 import 'package:contacts/core/routes_manager.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void main (){
-runApp(Contacts());
-
+void main() {
+  runApp( Contacts());
 }
+
 class Contacts extends StatelessWidget {
   const Contacts({super.key});
 
@@ -13,9 +12,8 @@ class Contacts extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-routes: RoutesManager.routes,
-      initialRoute: RoutesManager.homescreen ,
-
+      routes: RoutesManager.routes,
+      initialRoute: RoutesManager.homescreen,
     );
   }
 }

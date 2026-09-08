@@ -12,8 +12,10 @@ class Contacts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: RoutesManager.routes,
-      initialRoute: RoutesManager.splash,
+      debugShowCheckedModeBanner: false,
+routes: RoutesManager.routes,
+      initialRoute: RoutesManager.homescreen ,
+
     );
   }
 }
